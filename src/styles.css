@@ -13,3 +13,14 @@ body {
 input {
     margin: 5px
 }
+
+a {
+    margin: 4px;
+    text-decoration: none;
+    color: blue;
+
+}
+
+h3{
+    color: green;
+}

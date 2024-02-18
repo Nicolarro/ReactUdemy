@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './styles.css';
 import './components/useReducer/intro-reducer';
@@ -7,14 +6,15 @@ import {
 /*   createBrowserRouter, */
 /*   RouterProvider, */
 } from "react-router-dom";
-import TodoApp from  "./components/useReducer/TodoApp";
+/* import TodoApp from  "./components/useReducer/TodoApp"; */
+import MainApp from './components/useContext/MainApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   
   <BrowserRouter>
 {/*   <React.StrictMode> */}
 {/*     <RouterProvider router={}/>  */}
-    <TodoApp/>
+    <MainApp/>
 {/*   </React.StrictMode>, */}
   </BrowserRouter>
 )
